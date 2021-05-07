@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css'
 import Card from './Card'
-import Data from "./Data"
+import data from "./data"
 
 // const attributes = {
 // link: "https://www.netflix.com/in/title/70143860",
@@ -11,22 +11,35 @@ import Data from "./Data"
 // title : "The Vampire Diaries"
 // }
 
-function ncard(val){
-  return(
-    <Card 
-    imagesrc = {val.imagesrc}
-    link =  {val.link}
-    title = {val.title}
-    name = {val.name}
-  />
-  );
-}
 
 ReactDOM.render(
   <>
-  <h1>Following are my favourite series:</h1>
-  {/* <p>Hey there its the test</p> */}
-  {Data.map(ncard)}
+  <h1>Following are the most popular series:</h1>
+  
+  <Card 
+    imagesrc = "https://static.toiimg.com/thumb/msid-53363242,width-800,height-600,resizemode-75/53363242.jpg"
+    link =  "https://www.netflix.com/in/title/70143860"
+    title = "The Vampire Diaries"
+    name = "A Netflix Original Series"
+  />
+  <Card 
+    imagesrc = "https://static.toiimg.com/thumb/msid-53363242,width-800,height-600,resizemode-75/53363242.jpg"
+    link =  "https://www.netflix.com/in/title/70143860"
+    title = "The Vampire Diaries"
+    name = "A Netflix Original Series"
+  />
+  <Card 
+    imagesrc = "https://static.toiimg.com/thumb/msid-53363242,width-800,height-600,resizemode-75/53363242.jpg"
+    link =  "https://www.netflix.com/in/title/70143860"
+    title = "The Vampire Diaries"
+    name = "A Netflix Original Series"
+  />
+  <Card 
+    imagesrc = "https://static.toiimg.com/thumb/msid-53363242,width-800,height-600,resizemode-75/53363242.jpg"
+    link =  "https://www.netflix.com/in/title/70143860"
+    title = "The Vampire Diaries"
+    name = "A Netflix Original Series"
+  />
   
   </>
   ,
