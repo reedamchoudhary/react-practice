@@ -7,6 +7,7 @@ import data from "./data"
 const ncard = (val) =>{
   return (
     <Card 
+    key = {val.id}
     imagesrc = {val.imagesrc}
     link =  {val.link}
     title = {val.title}
