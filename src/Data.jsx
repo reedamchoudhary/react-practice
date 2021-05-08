@@ -31,4 +31,4 @@ const  Data = [
     }
 ]
 
-// export deafult data
+export default data
